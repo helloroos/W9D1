@@ -1,3 +1,5 @@
+const Game = require('./game.js');
+
 export default class Level {
   constructor(dimensions) {
     this.dimensions = dimensions;
@@ -7,4 +9,10 @@ export default class Level {
     ctx.fillStyle = "skyblue";
     ctx.fillRect(0, 0, this.dimensions.width, this.dimensions.height);
   }
+
+  animate(){
+
+  }
 }
+
+moudle.export = Level;
